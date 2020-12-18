@@ -6,7 +6,7 @@ const cors = require('cors');
 
 const testRoutes = require('./api/routes/test-routes');
 
-mongoose.connect('mongodb+srv://admin:<admin>@poker.qv3bs.mongodb.net/<dbname>?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://admin:admin@poker.qv3bs.mongodb.net/<dbname>?retryWrites=true&w=majority', {
     useNewUrlParser: true, 
     useUnifiedTopology: true 
 });
