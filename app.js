@@ -19,7 +19,7 @@ app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json());
 
 app.use('/test', testRoutes);
-app.use('/players', playerRoutes);
-app.use('/tables', tableRoutes);
+// app.use('/players', playerRoutes);
+// app.use('/tables', tableRoutes);
 
 module.exports = app;
