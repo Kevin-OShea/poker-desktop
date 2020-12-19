@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 
 const tests = require('../models/test')
 
-router.get('/tests', (req, res, next) => {
+router.get('/', (req, res, next) => {
     tests.find()
     .then(a => {
       res.status(200).json({ topScores: '5' })
