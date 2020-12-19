@@ -4,12 +4,10 @@ const table = mongoose.Schema({
     _id: mongoose.Schema.Types.ObjectId,
     hand_cards: {
         type: [[String]],
-        required: true,
         default: [["123456789XJQK"],["123456789XJQK"],["123456789XJQK"],["123456789XJQK"]]
     },
     hand_suite: {
         type: [[String]],
-        required: true,
         default: [["s"],["h"],["d"],["c"]]
     },
     name: {
